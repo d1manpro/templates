@@ -1,0 +1,22 @@
+debug: true
+
+token: "mysecrettoken"
+
+admin_id: 12
+
+staff_ids:
+  - 1
+  - 2
+  - 3
+
+roles:
+  1: "owner"
+  2: "admin"
+  3: "moderator"
+
+database:
+  host: "localhost"
+  port: "3306"
+  name: "mydb"
+  user: "myuser"
+  password: "mypassword"
